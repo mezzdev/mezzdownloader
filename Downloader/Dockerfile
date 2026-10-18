@@ -1,7 +1,6 @@
-
 FROM node:22-bookworm-slim
 
-RUN apt-get update && apt-get install -y --no-install-recommends curl ca-certificates ffmpeg python3 && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y --no-install-recommends curl ca-certificates ffmpeg python3 unzip && rm -rf /var/lib/apt/lists/*
 
 ENV DENO_INSTALL=/usr/local
 
