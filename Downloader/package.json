@@ -1,0 +1,12 @@
+{
+  "name": "mezzdownloader",
+  "version": "1.0.0",
+  "description": "MezzDownloader",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
