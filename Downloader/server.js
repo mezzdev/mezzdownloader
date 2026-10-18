@@ -97,7 +97,6 @@ app.post("/download", async (req, res) => {
             "--no-playlist",
             "--no-warnings",
             "--js-runtimes", "node",
-            "--remote-components", "ejs:npm",
             "-f", "bestvideo+bestaudio/best",
             "--merge-output-format", "mp4",
             "-o", output,
