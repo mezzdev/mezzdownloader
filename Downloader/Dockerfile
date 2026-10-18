@@ -12,6 +12,8 @@ WORKDIR /app
 
 COPY package*.json ./
 
+RUN ls -la /app && test -f /app/package.json
+
 RUN npm install --omit=dev
 
 COPY . .
